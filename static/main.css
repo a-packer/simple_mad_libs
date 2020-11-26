@@ -1,0 +1,60 @@
+body {
+    color: rgb(82, 60, 13);
+    margin-top: 10%;
+    background-image: url('cacti.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+/************ story styles ************/
+div#story_container.container {
+    background: rgba(255,255,255,0.9);
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    align-content: center;
+}
+
+div.jumbotron {
+    background: rgba(255,255,255,0.8);
+}
+#outer_form_div {
+    display: flex;
+    justify-content: center;
+}
+#form_div {
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.8);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 450px;
+    border: green 5px solid;
+}
+h2 {
+    padding: 0px;
+    margin-top: 15px;
+}
+label {
+    width: 115px;
+    padding: 5px;
+    text-align: right;
+    font-size: 18px;
+}
+input {
+    width: 150px;
+    padding: 5px;
+}
+button {
+    width: 265px;
+    margin: 5px;
+    background: rgb(82, 60, 13);
+    color: white;
+}
+
+button:hover {
+    background: lightblue;
+}
+
+
